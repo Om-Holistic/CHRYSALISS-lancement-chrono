@@ -118,6 +118,8 @@ Estimation de recettes types par IA|?||3
 :Budget calorique adaptatif
 Concevoir le moteur énergétique adaptatif : apports et dépenses estimés, éviter double comptage du coefficient d’activité et des calories actives, tenir compte de la fiabilité des données ; tester ajustements progressifs sans réintégration automatique des calories actives|?||3
 :Ergonomie et validation des repas
+Chiffres faux du journal alimentaire (remarques de K du 26/11, probablement une même cause) : fenêtre des quantités, impact en calories « – kcal » jamais calculé ; détail d’un repas, fibres globales « – /30 g » alors que les aliments en contiennent (3 g avec des framboises) ; socle Alpha « chiffres justes » — corrigé et publié le 26/11 : même formule partout, valeur absente = 0 (règle de K)|?|d|1|2026-11-26 09:50|2026-11-26 10:20|0.5
+Fenêtre des quantités : aligner la quantité (20 g, 30 g…) avec les boutons − et +, vérifier que le bouton de fermeture est bien rond et le CSS de la fenêtre — remarque de K du 26/11|?|d|4|2026-11-26 09:50|2026-11-26 10:20|0.2
 Confirmer directement un repas prévu et détaillé via Je l’ai mangé et j’ai le détail ; conserver aliments et quantités modifiables, actualiser apports consommés et scoring sans doublon|?
 Stabiliser la recherche mobile au focus et à l’ouverture ou fermeture du clavier iOS ; en-tête, champ et défilement des résultats cohérents pour tous les repas ; reproduire avant diagnostic|?
 Rendre l’aide à la saisie dépliable, ouverte à la première utilisation puis repliée par défaut|?
@@ -263,7 +265,7 @@ Finaliser les règles et tester les KPI|3
 Adapter les calculs aux jours off|2||2
 Appliquer le seuil de marche personnel à la régularité de la semaine et à l’écran du QG (aujourd’hui 20 min écrit en dur ; sans effet pour Refit)|1.5||4|2026-11-25 16:40
 :Précision des quantités
-Aliments pesés (décision de K du 26/11) : balance « Tout pesé / En partie / Rien pesé » à la place de l’épingle du lieu, 20 pièces/jour (8+12 ou 4+6+10, moitié si en partie), Repas détaillés passe à 10, total Manger 95 ; prêt et montré à K, publication après son accord|3||2|||1.5
+Aliments pesés (décision de K du 26/11) : balance « Tout pesé / En partie / Rien pesé » à la place de l’épingle du lieu, 20 pièces/jour (8+12 ou 4+6+10, moitié si en partie), Repas détaillés passe à 10, total Manger 95 ; publié le 26/11 (barème actif dès le 26/11, visible dans les bilans) ; « Rien pesé » cite plat cuisiné, recette, restaurant|3|d|2||2026-11-26 08:53|1.5
 Bilans du jour et de la semaine (« Ce que tu as saisi », phrase sous chaque ligne) et coach alimentaire déclaré → détaillé → pesé : prêts avec la balance ; reste le cockpit coach (colonne Repas pesés, à voir avec l’audit du tableau de bord coach)|2||2|||0.5
 :Cohérence du potentiel restant
 Utiliser les mêmes dénominateurs que les bilans ; tester 148 - 132 = 16, somme des catégories, fin de période et distinction des pièces récupérables|1
