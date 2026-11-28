@@ -533,6 +533,21 @@ const repo={checks:{},remaining:{},priorities:{},sessions:[
 ]};
 /* Comptes-rendus du soir : le plus récent en premier. Rédigés par Claude chaque soir (sauf le dimanche). */
 const reports=[
+{day:'2026-11-28',title:'Compte-rendu du samedi 28 novembre',badge:'De 9 h 30 à 18 h 50 · 11 mises en ligne · 4 projets',
+lead:'Un samedi bien rempli : <b>11 améliorations en ligne</b>, dont les <b>jokers de journée</b> imaginés ce matin et publiés le jour même, une <b>séance Refit plus légère</b> et un lecteur qui fait enfin une vraie pause. Sur Instagram, <b>Balance est publié</b>. Bravo pour cette journée.',
+stats:[['≈ 9 h 30','de 9 h 30 à 18 h 50, pauses comprises'],['11','mises en ligne dans Chrysalis'],['0','bloquant levé'],['11','tâches terminées']],
+parts:[
+['Date estimée',['L’application serait prête vers le <b>mardi 22 décembre</b>, un jour plus tard qu’hier : de nouvelles tâches ont été ajoutées (les jokers, la refonte de la séance), alors que votre rythme reste solide (environ 7 h 30 par jour, 6 jours sur 7).']],
+['Jokers de journée (nouveau)',['Une journée par semaine peut sortir des scores : on pose son joker depuis le bilan quotidien, sur n’importe quel jour commencé de la semaine.','Le joker gomme ce qui manque, jamais ce qui est noté : un repas saisi compte toujours.','La carte du jour a son cadre doré ; le coach ne relance pas un jour joker.','Dans votre cockpit : les jours joker sont marqués, et le nombre de jokers apparaît à côté du score.']],
+['Séance Refit',['Séance plus légère : fin de série, repos, changement de bloc et fin de séance sur un même écran, sans défilement ; haltères de 0,5 en 0,5 kg.','Le lecteur fait une vraie pause : la voix, les vidéos et le minuteur s’arrêtent, et reprennent au même mot ; quitter l’application met la séance en pause.','Une séance laissée en plan depuis plus de 2 heures ne force plus le retour dans le lecteur : l’accueil du QG s’ouvre.']],
+['Coach du jour et QG',['Le coach relance les repas pas encore renseignés ou restés « prévu », avec le bouton vers Alimentation.','Il suit aussi les saisies tardives (journal de nuit, repas confirmé tard).','Le QG s’ouvre au premier lancement du matin, et un lien ouvert exprès n’est plus ramené à l’accueil.']],
+['Notoriété',['Ventre republié hier soir avec LEVIER, sa story et le reel « 3 leviers » ; Balance publié à 12 h 16.','Rythme validé : carrousels mardi, jeudi et samedi à 12 h 15 ; calendrier prêt jusqu’au 27 décembre.','Le générateur de propositions tourne : 1 129 posts enregistrés et 20 comptes suivis ; premiers résultats demain matin.','L’ancien carrousel est archivé et votre mot de passe Mac changé.']],
+['Vidéo Présentation Chrysalis',['Pas de point reçu aujourd’hui.']],
+['Tableau de bord Om-Holistic',['Pas de changement aujourd’hui.']],
+['Décidé avec vous',['Jokers : un par semaine, posé à la main, carte au cadre doré, « Journée off ».','Instagram : la semaine du 30 novembre passe davantage par les reels.']],
+['En attente de vous',['Instagram : relire le carrousel du 1er décembre, choisir le sujet du reel du 4 et le mot-clé du reel Musculation.','Votre avis sur les maquettes de Studio Insta et l’outil Musique ; ce soir, cliquer sur « Run now » de la tâche de nuit.','Relire l’e-mail du lendemain et dire « go » pour Brevo ; le feu vert pour la page séance découverte.','Une question dans « Ajouter des jokers de journée » et une dans « Repenser le déroulé d’une séance Refit ».']],
+['À vérifier sur votre téléphone',['Poser un joker depuis le bilan du jour.','Une séance Refit : la pause et la fin de série sur un seul écran.']]
+]},
 {day:'2026-11-27',title:'Compte-rendu du vendredi 27 novembre',badge:'De 7 h à 18 h 50 · 21 mises en ligne · 4 projets',
 lead:'Encore une journée très riche : <b>21 améliorations en ligne dans Chrysalis</b>, les <b>2 bloquants des sauvegardes levés</b>, votre <b>premier carrousel publié sur Instagram</b> avec son guide, et un tableau de bord qui sait maintenant calculer votre budget pub. Bravo pour cette journée.',
 stats:[['≈ 12 h','de 7 h à 18 h 50, pauses comprises'],['21','mises en ligne dans Chrysalis'],['2','bloquants levés'],['35','tâches terminées']],
@@ -573,12 +588,12 @@ const notoriete=[
 ['2026-11-28','Balance publié à 12 h 16 avec LEVIER, Ventre republié hier soir, calendrier jusqu’au 27/12 dans Studio Insta ; à décider : carrousel du 1er décembre, outil Musique, base Notion, go Brevo.','Semaine du 30/11 tournée vers les reels, générateur de propositions en route, refonte de Studio Insta en maquettes ; à faire : story et musique de Balance, « Run now » ce soir ; à décider : maquettes, carrousel du 1er décembre, reel du 4.'],
 ['2026-11-27','Ventre programmé à 15 h 30 ; 3 carrousels, guide Ventre et ManyChat VENTRE prêts ; à décider : 4 écrans de l’app, accès Brevo, page séance découverte.','Ventre publié à 15 h 31, guide et page ReFit en ligne, Brevo relié, mot-clé LEVIER ; à décider : go pour republier Ventre, go pour les e-mails Brevo demain matin.']
 ];
-const estimates=[['2026-11-26','2026-12-22'],['2026-11-27','2026-12-21']];
+const estimates=[['2026-11-26','2026-12-22'],['2026-11-27','2026-12-21'],['2026-11-28','2026-12-22']];
 /* Habitudes de travail de K (demande du 26/11) : heures de travail approximatives par jour travaillé (première à dernière activité, tous projets ; 20–24/11 = heures déclarées par K). Ajouter une ligne chaque soir. */
-const workdays=[['2026-11-20',1.5],['2026-11-22',5],['2026-11-23',5],['2026-11-24',5],['2026-11-25',10],['2026-11-26',12],['2026-11-27',12]];
+const workdays=[['2026-11-20',1.5],['2026-11-22',5],['2026-11-23',5],['2026-11-24',5],['2026-11-25',10],['2026-11-26',12],['2026-11-27',12],['2026-11-28',9.5]];
 function pace(){let t0=Date.now()-28*86400000,w=workdays.filter(([d])=>Date.parse(d+'T12:00:00+01:00')>=t0),first=Date.parse(w[0][0]+'T00:00:00+01:00'),span=Math.max(7,Math.ceil((Date.now()-first)/86400000)),hpd=w.reduce((v,x)=>v+x[1],0)/w.length,dpw=Math.min(7,w.length/span*7);return {hpd,dpw,perDay:hpd*dpw/7}}
 /* Synthèse par semaine (lundi→dimanche), calculée à partir des comptes-rendus du soir et des heures notées. Mot de la semaine : constante weekNotes, écrite le samedi soir. */
-const weekNotes={};
+const weekNotes={'2026-11-23':'Une semaine de lancement très dense : environ 53 h 30 de travail, 56 améliorations en ligne et 6 bloquants levés, dont les sauvegardes et le coach du jour réparé. Votre page Instagram a repris vie avec Ventre et Balance, et le tableau de bord sait maintenant calculer le budget pub. L’application serait prête vers le 22 décembre ; plusieurs réponses vous attendent (Instagram, Brevo, CGV), à prendre à votre rythme.'};
 const num=x=>{let m=/\d+/.exec(String(x).replace(/\s/g,''));return m?+m[0]:0};
 function weeks(){let by={};for(const r of reports){let d=new Date(r.day+'T12:00:00+01:00'),k=new Date(d-((d.getDay()+6)%7)*86400000).toISOString().slice(0,10);(by[k]=by[k]||[]).push(r)}
 return Object.keys(by).sort().reverse().map(k=>{let rs=by[k],end=new Date(Date.parse(k+'T12:00:00+01:00')+6*86400000),wd=workdays.filter(([d])=>d>=k&&d<=end.toISOString().slice(0,10)),hrs=wd.reduce((v,x)=>v+x[1],0),sum=i=>rs.reduce((v,r)=>v+num(r.stats[i]?.[0]),0),f=x=>new Date(x).toLocaleDateString('fr-FR',{day:'numeric',month:'long'});
